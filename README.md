@@ -2,6 +2,9 @@
 
 Here are some words about my solution to test task. 
 
+* But at first unzip `dataset/potato_plans_diseases.zip` to `dataset/PLD_3_Classes_256`
+* Load `pytorch_model.bin` and place it to `ml-server/mlmodels/vit-potatoes-plant-health-status/pytorch_model.bin`. You can download model from here https://drive.google.com/file/d/1n_bw7KF09DcwsgMu4YK99vSeQHJPhCyf/view?usp=share_link
+
 ### Mandatory Tasks
 
 1. As it was recommended I used `google/vit-base-patch16-224-in21k` model. The code for training is located in `train.py`, but also I put here a jupyter notebook `classifier_transformers.ipynb`. 
